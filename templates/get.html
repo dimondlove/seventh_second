@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Django</title>
+</head>
+<body>
+    <h2>Студент</h2>
+    <table>
+        <thead>
+            <th>ID</th>
+            <th>Фамилия</th>
+            <th>Имя</th>
+            <th>Отчество</th>
+            <th>Год рождения</th>
+            <th>Группа</th>
+        </thead>
+        <tr>
+            <td>{{ student.id }}</td>
+            <td>{{ student.surname }}</td>
+            <td>{{ student.name }}</td>
+            <td>{{ student.patronymic }}</td>
+            <td>{{ student.year }}</td>
+            <td>{{ student.group }}</td>
+        </tr>
+    </table>
+</body>
+</html>
